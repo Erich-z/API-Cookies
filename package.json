@@ -4,12 +4,18 @@
   "main": "index.js",
     "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erich-z/API-Cookies.git"
   },
   "keywords": [],
   "author": "Erich Valarini",
   "license": "ISC",
   "description": "Criando API usando cookies",
+  "homepage": "https://github.com/Erich-z/API-Cookies#readme",
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "express": "^5.1.0",
